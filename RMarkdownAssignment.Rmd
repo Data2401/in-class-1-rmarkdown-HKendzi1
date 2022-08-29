@@ -1,6 +1,6 @@
 ---
-  title: 'RMarkdown:  In Class Assignment'
-author: "YOUR NAME HERE"
+title: 'RMarkdown:  In Class Assignment'
+author: "Hannah Kendziora"
 date: "Data 2401"
 output: html_document
 ---
@@ -21,7 +21,24 @@ Below the "Your work here" section header, do the following 3 things. To turn th
 
 1. Make a subsection called "Wise words". Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
 
+## Wise Words
+> "Dont wait. The time will never be just right." 
+
+[HK Favorite quote](https://www.invajy.com/25-inspirational-quotes-to-make-you-think/)
+
 2. Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
+
+## My Semester
+as.table(data)
+# create matrix with 3 column
+data= matrix(c(1:12), ncol=3 byrow=TRUE
+# specify the column names and row names of matrix
+colnames(data) = c(' __course number__ ', ' _course title_ ', ' instructor name ')
+rownames(data) <- c('class one', 'class two' 'class three', 'class four')
+# assign to table 
+final= as.table(data)
+#display
+final
 
 3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
 
