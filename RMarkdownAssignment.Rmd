@@ -29,16 +29,13 @@ Below the "Your work here" section header, do the following 3 things. To turn th
 2. Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
 
 ## My Semester
-as.table(data)
-# create matrix with 3 column
-data= matrix(c(1:12), ncol=3 byrow=TRUE
-# specify the column names and row names of matrix
-colnames(data) = c(' __course number__ ', ' _course title_ ', ' instructor name ')
-rownames(data) <- c('class one', 'class two' 'class three', 'class four')
-# assign to table 
-final= as.table(data)
-#display
-final
+| __Course Number__ | _Course Title_     | Instructor name      |
+|:------------------|:-------------------|:---------------------|
+| __2311__          | _Computer Science_ | John Henderson       | 
+| __2401__          | _Data Science_     | Katherine Shoemaker  |
+| __2422__          | _Math_             | Edwin Tecarro        |
+| __1301__          | _Freshmen Seminar_ | Cyril Harris         |
+
 
 3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
 
@@ -46,6 +43,16 @@ final
 + An example of their writing or lyrics (formatted in a *plain code block*);   
 + A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
 
+## I recommend
+### _Frank Ocean_
+> "There will be mountains you wont move" 
+
++ Ivy
++ Self Control
++ White Ferrari
++ Novacane
++ Pink & White
++ Nikes
 
 Note that you can click "Knit" as you go along to see what the final results are going to look like. **Once you're done, commit the changes and push the repo back to your assignment on GitHub!**
  
